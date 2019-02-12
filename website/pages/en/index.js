@@ -59,7 +59,6 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="#try">Try it out</Button>
             <Button href={docUrl('installation')}>Getting Started</Button>
-            {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -121,46 +120,56 @@ class Index extends React.Component {
     );
 
     const FeaturesDetailed = () => (
+      <div>
       <Block layout="fourColumn" background="dark">
         {[
           {
-            content: 'Pull dependencies directly from GitHub, BitBucket, GitLab, hosted Git and HTTP.',
+            title: 'Pull dependencies directly from GitHub, BitBucket, GitLab, hosted Git and HTTP.',
           },
           {
-            content: 'Fully reproducible builds and dependency resolution.',
+            title: 'Fully reproducible builds and dependency resolution.',
           },
           {
-            content: 'Completely decentralized - there is no central server or publishing process.',
+            title: 'Completely decentralized - there is no central server or publishing process.',
           },
           {
-            content: 'Allows any build configuration (even on a package-by-package basis).',
-          },
-          {
-            content: 'Private and public dependencies to avoid "dependency hell".',
-          },
-          {
-            content: 'Multiple libraries per package, so tools like Lerna are unnecessary.',
-          },
-          {
-            content: 'Pull individual packages out of mono-repos.',
-          },
-          {
-            content: 'Full support for semantic versioning (but only when you want it!).',
-          },
-          {
-            content: 'Live at head! Move fast by depending directly on Git branches, but in a controlled way.',
-          },
-          {
-            content: 'Blazing fast resolution using clever heuristics.',
-          },
-          {
-            content: 'Version equivalency checks to reduce dependency conflicts.',
-          },
-          {
-            content: 'TOML configuration files for convenient editing by computers and humans.',
+            title: 'Allows any build configuration (even on a package-by-package basis).',
           },
         ]}
       </Block>
+      <Block layout="fourColumn" background="light">
+        {[
+          {
+            title: 'Private and public dependencies to avoid "dependency hell".',
+          },
+          {
+            title: 'Multiple libraries per package, so tools like Lerna are unnecessary.',
+          },
+          {
+            title: 'Pull individual packages out of mono-repos.',
+          },
+          {
+            title: 'Full support for semantic versioning (but only when you want it!).',
+          },
+        ]}
+      </Block>
+      <Block layout="fourColumn" background="dark">
+        {[
+          {
+            title: 'Live at head! Move fast by depending directly on Git branches, but in a controlled way.',
+          },
+          {
+            title: 'Blazing fast resolution using clever heuristics.',
+          },
+          {
+            title: 'Version equivalency checks to reduce dependency conflicts.',
+          },
+          {
+            title: 'TOML configuration files for convenient editing by computers and humans.',
+          },
+        ]}
+      </Block>
+      </div>
     );
 
     const Features = () => (
