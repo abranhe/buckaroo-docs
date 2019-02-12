@@ -19,6 +19,8 @@ Install dependencies
 $ yarn install && yarn start
 ```
 
+![screenshot](website/static/img/screenshot.png)
+
 ## Docusaurus Docs
 
 Full documentation can be found on the [website](https://docusaurus.io/).
