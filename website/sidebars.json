@@ -1,0 +1,25 @@
+{
+  "docs": {
+    "Getting Started": [
+      "installation",
+      "quickstart",
+      "commands",
+      "official-packages",
+      "creating-a-package",
+      "gitignore",
+      "buckaroo-macros",
+      "vc-dsl",
+      "executable-packages",
+      "env-variables"
+    ],
+    "Buck Tips & Tricks": [
+      "cpp-developement-in-powershell",
+      "building-cmake-projects"
+    ],
+    "Design Philosophy": [
+      "faq",
+      "build-from-source",
+      "git-as-pkg-repository"
+    ]
+  }
+}
