@@ -16,7 +16,7 @@ $ cd docs/website/
 Install dependencies
 
 ```
-$ yarn install && start
+$ yarn install && yarn start
 ```
 
 ## Docusaurus Docs
